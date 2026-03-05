@@ -18,3 +18,5 @@ nav:
     - Mission 1 - Définission d'un nouveau plan d'adressage: sp1mission1.md
     - Mission 2 - Mise en place de l'infrastructure réseau: sp1mission2.md
     - Mission 3 - Mise en place de l'infrastructure réseau avec VLAN visiteurs et dans le VLAN commerciaux: sp1mission3.md
+  - SP2 - Gestion du parc informatique:
+    - Mission 1 - Créer une documentation avec MkDocs et GitHub Pages: sp2mission1.md
