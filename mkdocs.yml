@@ -1,0 +1,20 @@
+site_name: Documentation Mille Nuits
+theme:
+  name: material
+  logo: assets/images/logo.png
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+nav:
+  - Accueil: index.md
+  - SP1 - Gestion de l'infrastructure réseau:
+    - Mission 1 - Définission d'un nouveau plan d'adressage: sp1mission1.md
+    - Mission 2 - Mise en place de l'infrastructure réseau: sp1mission2.md
+    - Mission 3 - Mise en place de l'infrastructure réseau avec VLAN visiteurs et dans le VLAN commerciaux: sp1mission3.md
