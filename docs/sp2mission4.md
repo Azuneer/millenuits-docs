@@ -27,6 +27,8 @@ Aller dans **Administration > Entités**, puis créer les entités enfants suiva
 | Angers | Site d'Angers |
 | Joué-les-Tours | Site de Joué-les-Tours |
 
+![Liste des entités](assets/images/entites_sp2m4.png)
+
 ---
 
 ## 2. Profils utilisés
@@ -53,6 +55,8 @@ Les utilisateurs ont été créés depuis **Administration > Utilisateurs > Ajou
 | `tech.dupont` | Technician | Technicien informatique |
 | `glpi` | Super-Admin | DSI (compte conservé pour le contexte du labo) |
 
+![Liste des utilisateurs](assets/images/utilisateurs_sp2m4.png)
+
 > Le compte `glpi` est le compte administrateur par défaut de GLPI. Il est conservé ici pour représenter le DSI dans le cadre du labo.
 
 ---
@@ -68,6 +72,10 @@ Le cycle de vie d'un ticket suit les étapes suivantes :
 3. Renseigner le titre, la description et l'urgence
 4. Valider — le ticket apparaît avec le statut **Nouveau**
 
+![Signaler un incident](assets/images/signaler_sp2m4.png)
+
+![Message ticket initial](assets/images/ticketinitial_sp2m4.png)
+
 ### 3.2 Prise en charge par un technicien
 
 1. Se connecter avec un compte technicien (ex: `tech.martin`)
@@ -76,12 +84,16 @@ Le cycle de vie d'un ticket suit les étapes suivantes :
 4. Dans la section **Acteurs**, s'attribuer le ticket en tant que **Technicien assigné**
 5. Le statut passe automatiquement à **En cours (Attribué)**
 
+![Affichage ticket liste](assets/images/ticketliste_sp2m4.png)
+
 ### 3.3 Traitement et documentation de la résolution
 
 Durant la prise en charge, le technicien documente les étapes via :
 
 - **Répondre** — pour ajouter des suivis/commentaires visibles par le demandeur
 - **Ajouter une tâche** (flèche à côté de "Répondre") — pour décrire les actions techniques réalisées avec le temps passé
+
+![Conversation tickets](assets/images/conversationtickets_sp2m4.png)
 
 Exemple de suivi sur un ticket "Souris HS bureau 12" :
 
@@ -104,6 +116,10 @@ Suivi 2 : Souris remplacée, problème résolu.
     - Nombre de tickets en cours / résolus
     - Temps de résolution moyen
     - Répartition par technicien ou par entité
+
+![Graphique tickets 1](assets/images/graphiqueticket1_sp2m4.png)
+
+![Graphique tickets 2](assets/images/graphiqueticket2_sp2m4.png)
 
 ---
 
