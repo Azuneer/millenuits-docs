@@ -21,3 +21,7 @@ nav:
   - SP2 - Gestion du parc informatique:
     - Mission 1 - Créer une documentation avec MkDocs et GitHub Pages: sp2mission1.md
     - Mission 4 - Recherche et mise en place d’un outil de gestion d’incident: sp2mission4.md
+  - SP3 - Gestion des services principaux AD - DHCP:
+    - Mission 1 - Mise en place du serveur Windows Server 2019: sp2mission1.md
+    - Mission 2 - Mise en place du serveur DHCP sous Linux: sp2mission2.md
+    - Mission 3 - Mise en place d’un serveur NAS avec authentification Active Directory et redirection de dossiers MN07: sp2mission3.md
