@@ -20,6 +20,7 @@ nav:
     - Mission 3 - Mise en place de l'infrastructure réseau avec VLAN visiteurs et dans le VLAN commerciaux: sp1mission3.md
   - SP2 - Gestion du parc informatique:
     - Mission 1 - Créer une documentation avec MkDocs et GitHub Pages: sp2mission1.md
+    - Mission 3 - Mise en place d'un outil de déploiement des postes (FOG Project): sp2mission3.md
     - Mission 4 - Recherche et mise en place d’un outil de gestion d’incident: sp2mission4.md
   - SP3 - Gestion des services principaux AD - DHCP:
     - Mission 2 - Mise en place du serveur DHCP sous Linux: sp3mission2.md
